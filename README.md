@@ -29,4 +29,9 @@ make -j$(nproc)
 ```
 make install
 ```
-
+## Build on Recas
+To build it on Recas fisrt we need to source the ROOT
+```
+source /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.22.00-dd202/x86_64-centos7-gcc10-opt/bin/thisroot.sh
+```
+Then add the line to bashrc
